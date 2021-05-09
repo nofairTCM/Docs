@@ -1,12 +1,12 @@
 # 사이트 기본 설정
 site_name: nofairTCM | RBLX 탈출맵 프로젝트
-site_url: https://qwreey75.github.io/luakrdoc/
+site_url: https://nofairTCM.github.io/Docs/
 site_author: nofair, qwreey, L_02L, ...
-site_description: lua 5.3 wiki for korean
+site_description: nofairTCM wiki for korean
 
 # 리포 설정
-repo_name: luakrdoc
-repo_url: https://github.com/qwreey75/luakrdoc
+repo_name: nofairTCM
+repo_url: https://github.com/nofairTCM
 edit_uri: ""
 
 # 벤치 설정-사이트dir 설정, 저장소 하나로 관리하기 위해서 이렇게 씀
