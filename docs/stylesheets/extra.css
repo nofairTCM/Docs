@@ -41,7 +41,26 @@ table.pretty {
 /*메뉴 열면 배경 블러효과 주기*/
 .md-overlay {
   background-color: rgba(0, 0, 0, 0.2) !important;
-  backdrop-filter: blur(24px);
+  /*backdrop-filter: blur(24px);*/
+}
+/*검색창 뒤 블러*/
+.md-search__overlay {
+  
+}
+
+/*화면 크기가 모바일*/
+@media screen and (max-width: 59.9375em) {
+  .md-search__overlay{
+    background-color: rgba(0, 0, 0, 0) !important;
+  }
+}
+
+/*화면 크기가 데스크톱*/
+@media screen and (min-width: 60em) {
+  .md-search__overlay{
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    /*backdrop-filter: blur(24px);*/
+  }
 }
 
 /*테이블 해더 꾸미기*/
