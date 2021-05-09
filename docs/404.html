@@ -1,0 +1,390 @@
+
+<!doctype html>
+<html lang="kr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="lua 5.3 wiki for korean">
+      
+      
+      
+        <meta name="author" content="Qwreey and more">
+      
+      
+      <link rel="shortcut icon" href="/luakrdoc/assets/LUAICON_TP.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.8">
+    
+    
+      
+        <title>Lua 한국어 위키</title>
+      
+    
+    
+      <link rel="stylesheet" href="/luakrdoc/assets/stylesheets/main.cb6bc1d0.min.css">
+      
+        
+        <link rel="stylesheet" href="/luakrdoc/assets/stylesheets/palette.39b8e14a.min.css">
+        
+      
+    
+    
+    
+      
+    
+    
+    
+      <link rel="stylesheet" href="/luakrdoc/stylesheets/extra.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="custom" data-md-color-primary="" data-md-color-accent="">
+      
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="https://qwreey75.github.io/luakrdoc/" title="Lua 한국어 위키" class="md-header-nav__button md-logo" aria-label="Lua 한국어 위키">
+      
+  <img src="/luakrdoc/assets/LUAICON_DARK.png" alt="logo">
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      <div class="md-header-nav__ellipsis">
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            Lua 한국어 위키
+          </span>
+        </div>
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            
+              
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="검색" placeholder="검색" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header-nav__source">
+        
+<a href="https://github.com/qwreey75/luakrdoc" title="저장소로 이동" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    luakrdoc
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://qwreey75.github.io/luakrdoc/" title="Lua 한국어 위키" class="md-nav__button md-logo" aria-label="Lua 한국어 위키">
+      
+  <img src="/luakrdoc/assets/LUAICON_DARK.png" alt="logo">
+
+    </a>
+    Lua 한국어 위키
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/qwreey75/luakrdoc" title="저장소로 이동" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    luakrdoc
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/luakrdoc/." class="md-nav__link">
+        시작하기
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" >
+      
+      <label class="md-nav__link" for="nav-2">
+        자료형
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="자료형" data-md-level="1">
+        <label class="md-nav__title" for="nav-2">
+          <span class="md-nav__icon md-icon"></span>
+          자료형
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/luakrdoc/docs/stringvar/" class="md-nav__link">
+        문자열
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" >
+      
+      <label class="md-nav__link" for="nav-3">
+        라이브러리
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="라이브러리" data-md-level="1">
+        <label class="md-nav__title" for="nav-3">
+          <span class="md-nav__icon md-icon"></span>
+          라이브러리
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/luakrdoc/docs/stringlib/" class="md-nav__link">
+        문자열 라이브러리
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/luakrdoc/acknowledgements/" class="md-nav__link">
+        기여자
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+
+<svg xmlns="http://www.w3.org/2000/svg"
+  width="280"
+  height="110"
+  viewBox="0 0 1000 490"
+  >
+  <g id="그룹_138" data-name="그룹 138" transform="translate(-1324 -932)">
+    <rect id="사각형_37" data-name="사각형 37" width="1000" height="490" transform="translate(1324 932)" fill="none"/>
+    <line id="선_72" data-name="선 72" x1="169" y2="229" transform="translate(2015.5 1006.5)" fill="none" stroke="#9497b2" stroke-linecap="round" stroke-width="20"/>
+    <line id="선_73" data-name="선 73" x2="274" transform="translate(2015.5 1235)" fill="none" stroke="#9497b2" stroke-linecap="round" stroke-width="20"/>
+    <line id="선_74" data-name="선 74" y2="341" transform="translate(2184.5 1006)" fill="none" stroke="#9497b2" stroke-linecap="round" stroke-width="20"/>
+    <line id="선_75" data-name="선 75" x1="169" y2="229" transform="translate(1360.5 1003.5)" fill="none" stroke="#9497b2" stroke-linecap="round" stroke-width="20"/>
+    <line id="선_76" data-name="선 76" x2="274" transform="translate(1360.5 1232)" fill="none" stroke="#9497b2" stroke-linecap="round" stroke-width="20"/>
+    <line id="선_77" data-name="선 77" y2="341" transform="translate(1529.5 1003)" fill="none" stroke="#9497b2" stroke-linecap="round" stroke-width="20"/>
+    <g id="빼기_5" data-name="빼기 5" transform="translate(-1523 1323.783)" fill="none">
+      <path d="M3472,44.217H3222a22,22,0,0,1-22-22v-337a21.857,21.857,0,0,1,6.444-15.557A21.856,21.856,0,0,1,3222-336.784h171.971L3494-236.754V22.217a22,22,0,0,1-22,22Z" stroke="none"/>
+      <path d="M 3472.000244140625 24.21703910827637 C 3472.572998046875 24.21703910827637 3473.00927734375 24.0363712310791 3473.4140625 23.63137245178223 C 3473.8193359375 23.22617149353027 3474 22.78983879089355 3474 22.21650505065918 L 3474 -228.4698638916016 L 3385.68701171875 -316.7835693359375 L 3222 -316.7835693359375 C 3221.42724609375 -316.7835693359375 3220.9912109375 -316.6027526855469 3220.585693359375 -316.1974182128906 C 3220.18017578125 -315.7919616699219 3219.99951171875 -315.3557739257813 3219.99951171875 -314.7830810546875 L 3219.99951171875 22.21650505065918 C 3219.99951171875 22.78943824768066 3220.18017578125 23.22577285766602 3220.585693359375 23.63123893737793 C 3220.990966796875 24.0363712310791 3221.427001953125 24.21703910827637 3222 24.21703910827637 L 3472.000244140625 24.21703910827637 M 3472.000244140625 44.21703720092773 L 3222 44.21703720092773 C 3216.12353515625 44.21703720092773 3210.598876953125 41.92863845825195 3206.443603515625 37.77337265014648 C 3202.2880859375 33.61790466308594 3199.99951171875 28.09303855895996 3199.99951171875 22.21650505065918 L 3199.99951171875 -314.7830810546875 C 3199.99951171875 -320.6593017578125 3202.2880859375 -326.1840209960938 3206.443603515625 -330.3395690917969 C 3210.59912109375 -334.4950866699219 3216.123779296875 -336.7835693359375 3222 -336.7835693359375 L 3393.97119140625 -336.7835693359375 L 3494 -236.7540893554688 L 3494 22.21650505065918 C 3494 28.09310531616211 3491.711669921875 33.61803817749023 3487.556396484375 37.77337265014648 C 3483.401123046875 41.92863845825195 3477.87646484375 44.21703720092773 3472.000244140625 44.21703720092773 Z" stroke="none" fill="#9497b2"/>
+    </g>
+    <line id="선_78" data-name="선 78" y2="94" transform="translate(1863.5 1006)" fill="none" stroke="#9497b2" stroke-width="20"/>
+    <line id="선_79" data-name="선 79" x1="97" transform="translate(1863.5 1100)" fill="none" stroke="#9497b2" stroke-linecap="square" stroke-width="20"/>
+    <line id="선_80" data-name="선 80" x1="108" y2="109" transform="translate(1769.5 1163.5)" fill="none" stroke="#9497b2" stroke-width="20"/>
+    <line id="선_81" data-name="선 81" x2="109" y2="109" transform="translate(1769.5 1163.5)" fill="none" stroke="#9497b2" stroke-width="20"/>
+  </g>
+</svg>
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<svg xmlns="http://www.w3.org/2000/svg" width="430" height="130" viewBox="0 0 1915 581">
+  <g id="그룹_139" data-name="그룹 139" transform="translate(-87 -990)">
+    <text id="_페이지가_이동되었습니다" data-name="ㆍ페이지가 이동되었습니다" transform="translate(94 1350)" fill="#a7a7a7" font-size="83" font-family="GmarketSansMedium"><tspan x="0" y="0">ㆍ페이지가 이동되었습니다</tspan></text>
+    <text id="다음과_같은_이유로_페이지를_로드할_수_없습니다" data-name="다음과 같은 이유로 페이지를 로드할 수 없습니다" transform="translate(93 1250)" fill="#a7a7a7" font-size="83" font-family="GmarketSansMedium"><tspan x="0" y="0">다음과 같은 이유로 페이지를 로드할 수 없습니다</tspan></text>
+    <text id="_존재하지_않는_페이지입니다" data-name="ㆍ존재하지 않는 페이지입니다" transform="translate(94 1550)" fill="#a7a7a7" font-size="83" font-family="GmarketSansMedium"><tspan x="0" y="0">ㆍ존재하지 않는 페이지입니다</tspan></text>
+    <text id="_삭제된_페이지입니다" data-name="ㆍ삭제된 페이지입니다" transform="translate(94 1450)" fill="#a7a7a7" font-size="83" font-family="GmarketSansMedium"><tspan x="0" y="0">ㆍ삭제된 페이지입니다</tspan></text>
+  </g>
+  <text id="Page_not_found" data-name="Page not found" transform="translate(0 109)" fill="#9497b2" font-size="121" font-family="GmarketSansMedium"><tspan x="0" y="0">Page not found</tspan></text>
+</svg>
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="/luakrdoc/assets/javascripts/vendor.18f0862e.min.js"></script>
+      <script src="/luakrdoc/assets/javascripts/bundle.994580cf.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "\ud074\ub9bd\ubcf4\ub4dc\ub85c \ubcf5\uc0ac", "clipboard.copied": "\ud074\ub9bd\ubcf4\ub4dc\uc5d0 \ubcf5\uc0ac\ub428", "search.config.lang": "en", "search.config.pipeline": " ", "search.config.separator": "[\\s\\-]+", "search.placeholder": "\uac80\uc0c9", "search.result.placeholder": "\uac80\uc0c9\uc5b4\ub97c \uc785\ub825\ud558\uc138\uc694", "search.result.none": "\uac80\uc0c9\uc5b4\uc640 \uc77c\uce58\ud558\ub294 \ubb38\uc11c\uac00 \uc5c6\uc2b5\ub2c8\ub2e4", "search.result.one": "1\uac1c\uc758 \uc77c\uce58\ud558\ub294 \ubb38\uc11c", "search.result.other": "#\uac1c\uc758 \uc77c\uce58\ud558\ub294 \ubb38\uc11c", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "/luakrdoc/",
+          features: ['toc.integrate', 'navigation.instant'],
+          search: Object.assign({
+            worker: "/luakrdoc/assets/javascripts/worker/search.9c0e82ba.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
